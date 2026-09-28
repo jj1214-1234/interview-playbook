@@ -5,9 +5,13 @@ fundamentals, the STAR method, industry-specific question banks (tech, sales, he
 marketing, customer service), word-for-word salary-negotiation scripts, and how to close an interview
 strong. Two categories are free; the rest unlock with a single one-time purchase.
 
-**Status:** in progress -- all 10 categories of content are written, the category list + detail
-UI (with local "practiced" progress tracking) is built, and the paywall (value prop, included
-categories, price, unlock + restore) is wired up to `lib/purchases.ts` end to end.
+**Status:** feature-complete and verified on-device. All 10 categories of content are written,
+the category list + detail UI (with local "practiced" progress tracking) is built, and the
+paywall (value prop, included categories, price, unlock + restore) is wired up to
+`lib/purchases.ts` end to end. Built and launched via `npx expo run:ios` (Release configuration)
+on the iOS Simulator: list/lock badges, free-category content + persisted progress, the paywall,
+the mock-mode unlock flow, and persistence across a rebuild/reinstall were all confirmed working.
+See `demo-assets/screenshots/` for captures of each step.
 
 ## Stack
 
