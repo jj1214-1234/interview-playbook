@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 
+import { colors, radii } from '../constants/theme';
 import { IS_MOCK_MODE } from '../lib/purchases';
 
 /**
@@ -27,15 +28,15 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 12,
     right: 12,
-    backgroundColor: '#111111',
+    backgroundColor: colors.ink,
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 999,
+    borderRadius: radii.pill,
     opacity: 0.85,
     zIndex: 999,
   },
   label: {
-    color: '#FFFFFF',
+    color: colors.white,
     fontSize: 11,
     fontWeight: '700',
     letterSpacing: 0.5,

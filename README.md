@@ -5,7 +5,9 @@ fundamentals, the STAR method, industry-specific question banks (tech, sales, he
 marketing, customer service), word-for-word salary-negotiation scripts, and how to close an interview
 strong. Two categories are free; the rest unlock with a single one-time purchase.
 
-**Status:** in progress -- initial project scaffold only. Content and UI are being built next.
+**Status:** in progress -- all 10 categories of content are written, and the category list +
+detail UI (with local "practiced" progress tracking) is built. The paywall screen (next stage)
+is still a placeholder route.
 
 ## Stack
 
@@ -28,7 +30,11 @@ whenever it's active, so it's never ambiguous which mode is running.
 
 ```
 app/            expo-router screens (file-based routing)
-components/     shared UI components
+  index.tsx           category list (icon, summary, lock badge, "X/Y practiced")
+  category/[id].tsx   category detail (sections, "practiced" checkboxes, progress)
+  paywall.tsx          placeholder route -- real paywall UI is the next stage
+components/     shared UI (CategoryCard, SectionBody, ProgressBar, MockModeBadge)
+constants/      theme.ts -- color/spacing/type-scale design tokens
 content/        one JSON file per category (content/<id>.json), fixed schema -- see lib/types.ts
-lib/            purchases.ts, content.ts, types.ts
+lib/            purchases.ts, content.ts, progress.ts (AsyncStorage progress), types.ts
 ```
