@@ -1,0 +1,48 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env*.local
+!.env.example
+
+# typescript
+*.tsbuildinfo
+
+# Generated native projects. This app uses Continuous Native Generation
+# (`npx expo prebuild`) rather than a bare workflow, so ios/ and android/
+# are build artifacts regenerated from app.json + installed packages, not
+# source of truth. `npx expo run:ios` / `run:android` regenerate them
+# automatically when missing. If native code is ever hand-edited outside
+# a config plugin, remove these two lines and commit the folders instead.
+/ios
+/android
