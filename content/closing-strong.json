@@ -1,0 +1,64 @@
+{
+  "id": "closing-strong",
+  "title": "Closing Strong: Smart Questions & Follow-Up",
+  "free": false,
+  "icon": "flag-outline",
+  "summary": "The right questions to ask interviewers, organized by what they actually reveal, plus word-for-word templates for every follow-up moment from the thank-you note to accepting or declining an offer.",
+  "sections": [
+    {
+      "id": "why-questions-matter",
+      "heading": "Why Your Questions Matter as Much as Your Answers",
+      "body": "Every hiring manager has sat through candidates who ask \"What's the culture like?\" and gotten a rehearsed answer that means nothing. That's not a hiring signal for either side — it's a formality both people are enduring. The questions you ask in the last ten minutes of an interview are one of the only unscripted moments in the whole process, and interviewers remember them. A sharp, specific question tells them you've actually thought about the job instead of just wanting a job.\n\nThe other reason to take this seriously: you're evaluating them too. A good question forces a specific answer, and specific answers are the only ones you can actually check for red flags — vague answers (\"it's fast-paced,\" \"everyone wears a lot of hats\") usually mean the interviewer either doesn't know or doesn't want to say. If you leave every interview only having learned what they wanted you to learn, you've done half the job.\n\nAim for 3-4 questions per interview, pulled from a few different categories below so you're not just drilling one topic. Skip anything already answered in the job posting or earlier in the conversation — asking it anyway signals you weren't listening."
+    },
+    {
+      "id": "questions-role-scope",
+      "heading": "Questions That Reveal What You'd Actually Be Doing",
+      "body": "\"What does the person in this role need to get done in the first 90 days for you to feel like the hire was the right call?\"\nThis forces a concrete answer instead of a job-description recap. If the interviewer can't answer specifically, that's a sign the role hasn't been scoped carefully, or that priorities shift fast enough that a 90-day plan doesn't survive contact with reality — worth knowing either way.\n\n\"Is this role backfilling someone, or is it newly created?\"\nA backfill means there's a track record you can ask about (why the last person left, what worked and what didn't). A new role means you're partly defining it yourself, which is a different job than the one advertised. Both are fine — but you should know which one you're walking into.\n\n\"What's the ratio of maintaining existing work versus building something new in this role right now?\"\nJob postings almost always oversell the \"build new things\" part. This question gets you a real number, and if the interviewer hesitates or gives a much lower number than the posting implied, that's useful data before you accept."
+    },
+    {
+      "id": "questions-team-dynamics",
+      "heading": "Questions That Reveal How the Team Really Works",
+      "body": "\"Can you walk me through how the team handled the last project that went sideways?\"\nEvery team has had one. How they answer — do they own it, blame a person, blame \"leadership,\" get vague — tells you more about the team's health than almost anything else you could ask. Listen for whether the retro sounds like a process improvement or a witch hunt.\n\n\"How does the team make decisions when two people disagree on approach?\"\nThis surfaces whether there's an actual decision-making process (a lead makes the call, they escalate, they run an experiment) or whether disagreements just quietly fester. A vague answer like \"we just talk it out\" usually means there's no real mechanism."
+    },
+    {
+      "id": "questions-manager-style",
+      "heading": "Questions That Reveal Your Manager's Style",
+      "body": "\"How would you describe your management style, and can you give me an example of how that showed up recently?\"\nAsking for the example matters — anyone can say \"I'm hands-off and trust my team,\" but the example either backs that up or contradicts it. If they can't produce a recent, specific instance, treat the self-description skeptically.\n\n\"What does someone on your team do that makes your job easier, and what's something that creates more work for you?\"\nThis is a low-key way to learn the manager's actual pet peeves and priorities without asking the more confrontational \"what don't you like in an employee.\" The second half of the answer — what creates more work for them — is usually the most honest part."
+    },
+    {
+      "id": "questions-success-metrics",
+      "heading": "Questions That Reveal What \"Good\" Looks Like",
+      "body": "\"How is performance in this role actually measured — not the formal review, but day-to-day, what does the team notice?\"\nFormal review criteria and the metrics people actually get judged on informally are often two different things. This question gets at the second one, which matters more for whether you'll feel successful month to month.\n\n\"What did the strongest person who's ever held this role, or one like it, do differently from an average performer?\"\nA specific, concrete answer (e.g., \"she pushed back on scope early instead of just absorbing it\") tells you what excellence looks like here. A vague answer (\"just really committed\") suggests the bar isn't well defined, which can cut either way depending on how much structure you want."
+    },
+    {
+      "id": "questions-company-trajectory",
+      "heading": "Questions That Reveal Company Health and Direction",
+      "body": "\"What's changed about the company's priorities in the last six months, and why?\"\nCompanies that are executing well can usually narrate their own pivots clearly. Companies in trouble tend to either have no clear answer or describe a pivot that sounds more like damage control than strategy.\n\n\"How did the last round of budget or headcount decisions affect this team specifically?\"\nThis is a polite way to ask about layoffs, freezes, or budget cuts without asking directly. Most interviewers will tell you the truth in some form because it's a reasonable business question, and the answer tells you whether you'd be joining a team that's resourced or one that's been asked to do more with less.\n\n\"Where do you see the biggest risk to this team's plan for next year?\"\nInterviewers who are engaged with the business can usually name a real risk — a dependency, a market shift, a resourcing gap. If someone gives you a non-answer like \"I don't really see any risks,\" that's either overconfidence or disengagement, and it's worth noting which one it felt like."
+    },
+    {
+      "id": "template-thank-you",
+      "heading": "The Thank-You Note (Send Within 24 Hours)",
+      "body": "Send this by email the same day or the next morning at the latest — waiting three days makes it read as an afterthought instead of genuine follow-up. Reference something specific from the conversation; a generic thank-you is barely better than none.\n\nSubject: Thank you — [Your Name], [Role Title]\n\nHi [Interviewer's Name],\n\nThank you for taking the time to talk with me today about the [Role Title] role. I especially appreciated hearing about [specific thing they mentioned — a project, a challenge, how the team is structured], and it made me even more interested in the position.\n\n[One sentence connecting something you discussed to something specific about you — e.g., \"Given what you described about the backlog of onboarding issues, I think the migration project I mentioned would translate directly.\"]\n\nPlease let me know if there's anything else I can provide as you move forward. I'd love the opportunity to join the team.\n\nBest,\n[Your Name]\n\nIf you spoke with multiple people, send each of them a distinct note — same structure, but reference something specific to that conversation. Interviewers compare notes, and a copy-pasted note is easy to spot."
+    },
+    {
+      "id": "template-check-in",
+      "heading": "The Post-Interview Check-In (When You Haven't Heard Back)",
+      "body": "Wait until the timeline they gave you has actually passed — if they said \"early next week,\" don't email on Friday. If they gave no timeline, a week to ten days after the interview is a reasonable point to check in.\n\nSubject: Following up — [Role Title]\n\nHi [Interviewer's Name],\n\nI wanted to follow up on our conversation on [date] about the [Role Title] role. I'm still very interested in the opportunity and wanted to check whether there's an update on timing, or anything further you need from me in the meantime.\n\nLooking forward to hearing from you.\n\nBest,\n[Your Name]\n\nKeep it to three sentences. Don't restate your qualifications or re-pitch yourself — that reads as anxious. The only job of this email is to politely surface that you're waiting, without pressure."
+    },
+    {
+      "id": "template-delayed-decision",
+      "heading": "Handling a Delayed Decision Gracefully",
+      "body": "If they tell you the decision is taking longer than expected — a common and usually genuine situation (budget approval, a delayed executive sign-off, a competing internal candidate) — don't disappear and don't push for an artificial deadline unless you actually have a competing offer forcing your hand.\n\nHi [Interviewer's Name],\n\nThanks for the update, and no problem at all — I understand these things take time. I'm still very much interested in the role. If it's helpful, feel free to reach out whenever there's news, and in the meantime, please let me know if there's anything else useful for me to send over.\n\nBest,\n[Your Name]\n\nIf you do have a competing offer with a real deadline, say so plainly instead of bluffing:\n\nHi [Interviewer's Name],\n\nI wanted to let you know I've received an offer from another company with a decision deadline of [date]. I'm still very interested in this role and wanted to check whether there's a chance of a decision, or at least a read on timing, before then. Happy to share more detail if useful.\n\nBest,\n[Your Name]\n\nThis isn't an ultimatum — it's information they need to make a fair call, and most reasonable employers will either speed up or tell you honestly that they can't."
+    },
+    {
+      "id": "template-accepting-offer",
+      "heading": "Accepting an Offer",
+      "body": "Accept in writing even if you already said yes on the phone — it creates a clear record and usually triggers the next step (background check, start-date paperwork) faster.\n\nHi [Recruiter/Hiring Manager's Name],\n\nI'm thrilled to accept the offer for the [Role Title] position, with a start date of [date] and the terms we discussed: [base salary], [any other agreed terms worth restating — bonus, sign-on, remote arrangement]. Thank you for working with me through the process — I'm looking forward to getting started.\n\nPlease let me know what you need from me next, whether that's paperwork, a background check, or anything else.\n\nBest,\n[Your Name]\n\nRestating the terms in writing matters more than it seems — it's the easiest moment to catch a mismatch between what you discussed verbally and what shows up in the formal offer letter, before it becomes a problem on day one."
+    },
+    {
+      "id": "template-declining-offer",
+      "heading": "Declining an Offer Gracefully",
+      "body": "Decline by phone or a real-time conversation first if you had a relationship with the recruiter or hiring manager, then follow up in writing — a cold email out of nowhere after multiple rounds of interviews reads poorly. Keep the reason brief and honest without over-explaining or being negative about the company.\n\nHi [Recruiter/Hiring Manager's Name],\n\nThank you again for the offer, and for the time everyone invested throughout the process. After a lot of thought, I've decided to accept a different opportunity that's a better fit for [brief, honest reason — e.g., \"where I want to grow next\" or \"the specific type of work I'm looking to focus on\"]. This wasn't an easy decision, and I have a lot of respect for the team.\n\nI'd love to stay in touch, and I hope our paths cross again.\n\nBest,\n[Your Name]\n\nIf the real reason is compensation and you're comfortable saying so, a specific version can actually open the door to a counter:\n\nHi [Recruiter/Hiring Manager's Name],\n\nThank you for the offer. I want to be upfront: the compensation is below what I need to make this move, specifically around [base / total comp]. If there's flexibility there, I'd genuinely like to keep talking — otherwise, I understand, and I'm grateful for the time everyone spent with me.\n\nBest,\n[Your Name]\n\nEither version keeps the relationship intact. Recruiters remember candidates who decline professionally, and industries are smaller than they look."
+    }
+  ]
+}
