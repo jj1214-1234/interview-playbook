@@ -14,6 +14,16 @@ can say out loud. Content quality is the entire product.
 
 **Built for RevenueCat Shipaton 2026 -- Next Gen Award.**
 
+## Demo video
+
+`demo-assets/demo-video.mp4` -- a screen-recorded walkthrough on a real iOS Simulator run
+(category list, free-category content, marking a section practiced, the paywall, the unlock,
+and the fully-unlocked list), narrated over the top. Recorded against mock-mode purchases (see
+"RevenueCat setup" below) -- the flow is identical once a real API key is configured. Built with
+[claude-motion-design](https://github.com/howseen-ai/claude-motion-design) for the title/close
+cards (HTML + Playwright, no editing app) plus `ffmpeg` for the cut and mix; the build script is
+`demo-assets/video/assemble.py`.
+
 ## Screenshots
 
 See `demo-assets/screenshots/` for the full set, captured on an iOS Simulator running the

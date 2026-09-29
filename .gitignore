@@ -46,3 +46,20 @@ yarn-error.*
 # a config plugin, remove these two lines and commit the folders instead.
 /ios
 /android
+
+# Demo video build pipeline: keep the final cut (demo-assets/demo-video.mp4),
+# not the raw screen recordings / rendered title-card PNGs / Python venv used
+# to make it.
+demo-assets/video/
+demo-assets/audio/*.aiff
+demo-assets/.venv/
+
+# Local tool/session state (ruflo/claude-flow agent bookkeeping), not
+# project source -- written as a side effect of tooling, never intentional.
+.claude-flow/
+.swarm/
+*.db
+*.db-shm
+*.db-wal
+.claude/proven-config.json
+.claude/.proven-config-version
