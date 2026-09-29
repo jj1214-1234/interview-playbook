@@ -47,11 +47,13 @@ yarn-error.*
 /ios
 /android
 
-# Demo video build pipeline: keep the final cut (demo-assets/demo-video.mp4),
-# not the raw screen recordings / rendered title-card PNGs / Python venv used
+# Demo video build pipeline: keep the final cut (demo-assets/demo-video.mp4)
+# and the narration scripts (demo-assets/audio/*.txt), not the raw screen
+# recordings / rendered title-card PNGs / Python venv / raw voice takes used
 # to make it.
 demo-assets/video/
 demo-assets/audio/*.aiff
+demo-assets/audio/jordan_take/
 demo-assets/.venv/
 
 # Local tool/session state (ruflo/claude-flow agent bookkeeping), not
