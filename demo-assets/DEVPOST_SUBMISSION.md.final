@@ -1,0 +1,29 @@
+## Inspiration
+
+Google quietly shut down its free Interview Warmup tool in April 2026. What's left is either a $39/month subscription or generic advice — "be confident, be yourself." I wanted something that reads like it was written by someone who's actually run these interviews: specific scenarios, real phrasing, scripts you can say out loud.
+
+## What it does
+
+Interview Playbook is ten categories of real interview-prep content: behavioral interview fundamentals, the STAR method with fully worked example answers, six industry-specific question banks (tech, sales, healthcare, finance, marketing, customer service), word-for-word salary-negotiation scripts, and how to close an interview strong — smart questions to ask plus follow-up message templates. Two categories are free; the other eight unlock with a single one-time $9.99 purchase. Progress is tracked locally per section so you can see what you've practiced.
+
+## How I built it
+
+Expo / React Native / TypeScript, with expo-router for navigation and AsyncStorage for local progress state. RevenueCat's SDK (react-native-purchases) powers the single "Full Playbook" non-consumable entitlement. The purchase layer runs in a dual mock/real mode — same UI, same code path, swappable backend — so the full purchase-and-unlock flow works and is fully testable without a live RevenueCat project connected yet; dropping in a real API key activates real purchases with zero code changes (details in the repo README).
+
+I'm not a professional engineer — I built this by directing Claude Code (Anthropic's coding agent) end to end: architecture, all ten content sets, the UI, the RevenueCat integration, and testing on a real iOS Simulator build. The demo video's screen recording is a genuine simulator run, not a mockup, and the narration is my own voice.
+
+## Challenges I ran into
+
+Designing the purchases layer without ever touching a live RevenueCat account mid-build — the mock and real code paths had to be identical from the app's point of view, not a stub that gets thrown away later.
+
+## Accomplishments that I'm proud of
+
+Every entry across the ten categories is specific and concrete, not generic filler — that's the entire differentiation from every other interview-tips app. And the purchase flow is genuinely verified end to end on a real device build (checked out, unlocked, persisted across a full rebuild), not just described.
+
+## What I learned
+
+Directing an AI agent through a full build taught me to verify, not trust. An early cut of the demo video was reported as fully synced — it wasn't. Beats two through seven were dead silent because of a subtle timestamp bug in how the audio clips were cut, and I only caught it by actually watching the video myself, not by trusting the summary that said it worked. That became the rule for the rest of the build: check the real thing, not the report about the real thing.
+
+## What's next
+
+Connect a real RevenueCat project and ship to the App Store and Google Play, expand the industry question banks, and add a few more categories.
